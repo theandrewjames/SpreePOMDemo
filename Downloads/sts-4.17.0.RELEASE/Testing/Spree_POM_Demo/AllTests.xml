@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Page Object test example">
+	<parameter name="appURL"
+		value="https://demo.spreecommerce.org/" />
+	<parameter name="browserType" value="edge" />
+	<test name="test-1">
+		<classes>
+			<class name="com.spree.test.CheckOutTest" />
+			<class name="com.spree.test.CreateAccountTest" />
+			<class name="com.spree.test.LoginTest" />
+			<class name="com.spree.test.Spreecom_MyAccount_Test" />
+			<class name="com.spree.test.AddAddressTest" />
+			<class name="com.spree.test.EditAddressTest" />
+			<class name="com.spree.test.HomeTest" />
+			<class name="com.spree.test.OrderTest" />
+			<class name="com.spree.test.ShoppingCartTest" />
+			<class name="com.spree.test.Spreecom_WomenPage_Test" />
+			<class name="com.spree.test.Spreecom_MenPage_Test" />
+			<class name="com.spree.test.Spreecom_SportswearPage_Test" />
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Page Object test example">
+	<parameter name="appURL"
+		value="https://demo.spreecommerce.org/" />
+	<parameter name="browserType" value="edge" />
+	<test name="test-1">
+		<classes>
+			<class name="com.spree.test.Spreecom_MyAccount_Test" />
+			<class name="com.spree.test.AddAddressTest" />
+			<class name="com.spree.test.EditAddressTest" />
+		</classes>
+	</test>
+	
+</suite>
